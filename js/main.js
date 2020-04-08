@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 var firebaseConfig = {
   apiKey: process.env.API_KEY,
   authDomain: process.env.AUTH_DOMAIN,
