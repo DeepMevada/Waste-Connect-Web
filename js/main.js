@@ -1,23 +1,23 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyC4ZP0TjrRXABF1fr0dWpwxRw_atdboxhE",
-  authDomain: "waste-connect-wc8.firebaseapp.com",
-  databaseURL: "https://waste-connect-wc8.firebaseio.com",
-  projectId: "waste-connect-wc8",
-  storageBucket: "waste-connect-wc8.appspot.com",
-  messagingSenderId: "562983987984",
-  appId: "1:562983987984:web:35362f31873db3442a9395",
-  measurementId: "G-C5G2ZHJZZJ",
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  databaseURL: process.env.DB_URL,
+  projectId: process.env.P_ID,
+  storageBucket: process.env.S_BUCKET,
+  messagingSenderId: process.env.M_S_ID,
+  appId: process.env.APP_ID,
+  measurementId: process.env.M_ID,
 };
 
 var secondaryAppConfig = {
-  apiKey: "AIzaSyDpVPdQ30QGN6Mnuo_082emzzlNidHWYr0",
-  authDomain: "waste-connect-170c8.firebaseapp.com",
-  databaseURL: "https://waste-connect-170c8.firebaseio.com",
-  projectId: "waste-connect-170c8",
-  storageBucket: "waste-connect-170c8.appspot.com",
-  messagingSenderId: "784247414346",
-  appId: "1:784247414346:web:24de139f606659a40810b3",
-  measurementId: "G-J7386M4LJ3",
+  apiKey: process.env.API_KEY_2,
+  authDomain: process.env.AUTH_DOMAIN_2,
+  databaseURL: process.env.DB_URL_2,
+  projectId: process.env.P_ID_2,
+  storageBucket: process.env.S_BUCKET_2,
+  messagingSenderId: process.env.M_S_ID_2,
+  appId: process.env.APP_ID_2,
+  measurementId: process.env.M_ID_2,
 };
 
 firebase.initializeApp(firebaseConfig);
